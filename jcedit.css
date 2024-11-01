@@ -1,0 +1,76 @@
+.jcedit {
+    cursor: text !important;
+    display: block;
+}
+.jcedit-mode,.jcedit-mode:hover {
+    display: block !important;
+    border-top:1px solid #EEEEEE !important;
+    border-left:1px solid #EEEEEE !important;
+    border-right:1px solid #EEEEEE !important;
+    padding: 10px !important;
+    padding-bottom: 30px !important;
+    border-radius: 0px 5px 5px 0px !important;
+    outline: none !important;
+    cursor: text !important;
+    margin-bottom: 20px !important;
+}
+.jcedit:hover {
+    outline: none;
+    background: url(edit.png) 100% 5px no-repeat;
+    cursor: text !important;
+}
+.jcedit-buttons {
+    display: block !important;
+    border-bottom:2px solid #EEEEEE !important;
+    border-left:2px solid #EEEEEE !important;
+    border-right:2px solid #EEEEEE !important;
+    padding: 5px 0px 5px 0px !important;
+    text-align: center !important;
+    background: #EEEEEE !important;
+}
+.jcedit-buttons button {
+    cursor: pointer !important;
+    border: 1px #BBBBBB solid !important;
+    padding: 3px 8px 3px 8px !important;
+    border-radius: 5px !important;
+    background: #EEEEEE !important;
+    margin-right: 5px !important;
+}
+.jcedit-buttons button:hover {
+    background: #e1e1e1 !important;
+}
+
+#jcedit-mask {
+    z-index: 10;
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background-color:#EEE;
+    display:none;
+}
+#outerJCEditDialog {
+    border: 10px solid rgba(82, 82, 82, .4);
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    z-index: 20;
+    position: fixed;
+    display: none;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+}
+#innerJCEditDialog {
+    background: #FFF !important;
+    position: relative;
+    width:500px;
+    min-height: 300px;
+}
+.dialoghead {
+    background-color: #6D84B4;
+    border: 1px solid #3B5998;
+    border-bottom: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding:10px;
+}
